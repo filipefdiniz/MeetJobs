@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    font-family: Bebas Neue;
+}
+.pagina-inicial-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.banner {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 30px;
+    align-items: center;
+    background-color: #2F1854;
+    color: white;
+}
+.banner p{
+    font-size: 45px;
+    text-align: justify;
+    width: 80%;
+    margin-top: 20px;
+
+}
+.btn-img {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 50px 0px 50px;
+}
+.left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    
+}
+.left p{
+    font-size: 90px;
+    text-align: center;
+}
+.cadastrar {
+    font-family: Bebas Neue;
+    border: none;
+    width: 320px;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #FFF 0%, #3F62D4 0.01%, #861AA0 100%);
+    font-size: 50px;
+    color: white;
+}
+.right img{
+    width: 450px;
+    margin: 35px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .btn-img{
+    grid-template-columns: 1fr;
+    padding-bottom: 30px;
+    }
+
+    .right img{
+        display: none;
+    }
+}
+
+.instrucoes img{
+    margin: 20px;
+    width: 1100px;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 50px;
+    gap: 50px;
+   
+}
+
+.card{
+    background-color: #2F1854;
+    width: 200px;
+    height: 200px;
+    border-radius: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: white;
+}
+.comments{
+    display: flex;
+    width: 100%;
+    height: 200px;
+    background-color: #2F1854;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+
+}
+
+.comment-card{
+    color: black;
+    height: 70px;
+    width: 200px;
+    border-radius: 8px;
+    background-color: rgb(216, 216, 216);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

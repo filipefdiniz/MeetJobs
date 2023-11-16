@@ -1,0 +1,22 @@
+
+*{
+
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    align-items: center;
+}
+.logo-header{
+    width: 120px;
+}
+.btn-header {
+    width: 150px;
+    background-color: #A36AFF;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 20px;
+    height: 40px;
+}
